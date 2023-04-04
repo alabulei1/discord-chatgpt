@@ -11,7 +11,7 @@ pub fn run() {
         Ok(name) => name,
     };
     let channel_name: String = match env::var("channel_name") {
-        Err(_) => "general".to_string(),
+        Err(_) => "kubecon".to_string(),
         Ok(name) => name,
     };
 
